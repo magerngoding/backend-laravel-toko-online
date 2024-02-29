@@ -29,5 +29,8 @@ Route::middleware(['auth'])->group(function () {
 
     // Product
     Route::resource('product', \App\Http\Controllers\ProductController::class);
+
+    // Order
+    Route::resource('order', \App\Http\Controllers\OrderController::class);
 });
 
